@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+footer {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #18181b;
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+footer .socials {
+  padding: 1rem 0;
+}
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+footer .socials a:hover,
+footer .links a:hover {
+  color: #656565;
+}
+footer .links {
+  margin-bottom: 1.4rem;
+}
+footer .links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+footer .links a:hover {
+  color: #656565;
+}
+footer .credit {
+  font-size: 0.8rem;
+}
+footer .credit {
+  color: #fff;
+  font-weight: 400;
+}

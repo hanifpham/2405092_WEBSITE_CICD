@@ -1,0 +1,153 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #09090b;
+  font-family: "poppins", sans-serif;
+}
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+.nav-item {
+  font-family: "poppins";
+  font-weight: 500;
+}
+#trending {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.article-card {
+  box-shadow: 0 5px 15px rgb(157, 114, 255);
+  transition: all 0.3s ease;
+}
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(157, 114, 255);
+}
+/* Form Komentar */
+.comment-form {
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.comment-form .form-label {
+  font-weight: bold;
+}
+
+.comment-form .form-control {
+  background-color: #27272a;
+  color: #fff;
+  border: 1px solid #9d72ff;
+  border-radius: 5px;
+}
+
+.comment-form .btn {
+  background-color: #9d72ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.comment-form .btn:hover {
+  background-color: #27272a;
+}
+
+.result-komentar {
+  background-color: #27272a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.result-komentar h5 {
+  font-size: 1.2rem;
+  color: #e5e5e5;
+}
+
+.result-komentar p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* profil */
+.tabel {
+  border-color: #9d72ff;
+  height: 48vh;
+}
+
+/* kontak */
+.contact-form-section {
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.contact-form-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #9d72ff;
+  border-radius: 5px;
+  background-color: #27272a;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #e5e5e5;
+  display: block;
+  margin-top: 15px;
+}
+
+.btn-kirim {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #9d72ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-kirim:hover {
+  background-color: #27272a;
+}
+
+/* Hasil inputan */
+.result-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #27272a;
+  border-radius: 8px;
+  display: none;
+}
+
+.result-section h3 {
+  font-size: 1.5rem;
+  color: #e5e5e5;
+}
+
+.result-section p {
+  font-size: 1rem;
+  color: #fff;
+}

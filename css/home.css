@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #09090b;
+  font-family: "poppins", sans-serif;
+}
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+.nav-item {
+  font-weight: 500;
+}
+
+.container-fluid {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(../assets/img/bc2.png);
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  bottom: 40px;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.card-title,
+h5 {
+  font-weight: 500;
+  font-size: 14px;
+}
+h2 {
+  font-weight: 600;
+}
+
+/* Galeri */
+.filter-buttons {
+  margin: 40px 105px;
+}
+.filter-buttons button {
+  background-color: #27272a;
+  box-shadow: 0 2px 8px rgb(157, 114, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background-color: #09090b;
+}
+.hidden {
+  display: none !important;
+}
